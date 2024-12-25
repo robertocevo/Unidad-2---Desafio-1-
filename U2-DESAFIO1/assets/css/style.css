@@ -1,0 +1,161 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+aside {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 20vw;
+  border: 1px solid #bec1bb;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  background-color: #e8ebe4;
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  padding-top: 1px;
+  margin: 0;
+  font-size: 10px;
+}
+
+h5 {
+  padding: 0;
+  margin: 3px;
+  font-size: 16px;
+}
+h1 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border: 0.8px solid #bec1bb;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imagen {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 0.5px solid #e8ebe4;
+}
+
+.perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 0.8em;
+}
+
+button {
+  border: none;
+  margin: 40px;
+
+  padding: 10px 40px;
+  background-color: #a491d2;
+  justify-self: center;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+}
+
+button:hover {
+    background-color: #cdc3e6;
+}
+
+button:focus {
+    background-color: #bec1bb;
+}
+
+.color-text {
+  color: white;
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.estado-usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 0.5em 2em;
+}
+
+.datos-usuario {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: #828485;
+}
+
+.left {
+  padding-left: 0.8em;
+}
+
+.padding-contactos {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5em 2em;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
